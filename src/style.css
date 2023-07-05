@@ -1,0 +1,81 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-container {
+  background-color: #dfe6e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+header {
+  background-color: #bfccc3;
+  color: #ffffff;
+  width: 100%;
+  height: 65px;
+
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 28px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 700px;
+  margin: 14px;
+  padding: 16px;
+}
+
+.article-description {
+  font-size: 25px;
+  font-family: "Outfit";
+  font-weight: 300px;
+
+  color: #9fb3a6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subtitulo-content {
+  font-size: 17px;
+  font-family: "Outfit";
+  font-weight: 300px;
+}
+
+.btn-view-more {
+  height: 45px;
+
+  color: #909e76;
+  font-family: "Outfit";
+  font-weight: 300px;
+  font-size: 22px;
+
+  border-radius: 9px;
+  border: 2px solid #9fb3a6;
+  background-color: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn-view-more:hover {
+  background-color: #909e76;
+  color: #f0f3e8;
+}
